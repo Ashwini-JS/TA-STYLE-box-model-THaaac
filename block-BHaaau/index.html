@@ -1,15 +1,63 @@
-<!---
-### Create a page according to the layout shown below
+<!DOCTYPE html>
+<html lang = "en">
 
-![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
+    <head>
+        <meta charset="UTF-8">
+        <title>Box Model</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-#### Problems for exercise 2 in the layout
+    <body>
+        <header>
+            <h1>The Box Model, Box Sizing & Box Shadow</h1>
+        </header>
+        <hr>
+        <main>
+            <section>
+                <h4>Exercise 1</h4>
+                <div class="box-one"></div>
+                <div>
+                    <span class="circle">Content</span>
+                    <span class="circle">Padding</span>
+                    <span class="circle">Border</span>
+                    <span class="circle">Margin</span>
+                </div>
+            </section>
+            <hr>
 
-- Each parent container has width of 600px and border of 1px;
-- Each children box has width 180px and height 100px as well as margin of 10px;
-- Each child box which is having border has border-width 1px.
-- Note in the first container the boxes do not have any border.
+            <section>
+                <h4>Exercise 2</h4>
+                <h5>on border on these boxes</h5>
+                <div class="outline">
+                    <span class="box"></span>
+                    <span class="box"></span>
+                    <span class="box"></span>
+                </div>
+            </section>
+            <hr>
+            
+            <section>
+                <h5>1px border on these boxes</h5>
+                <section class="outline">
+                    <div>
+                        <span class=" box box-outline"></span>
+                        <span class="box box-outline"></span>
+                    </div>
+                    <div>
+                        <span class="box box-outline"></span>
+                    </div>
+                </section>              
+            </section>
+            <hr>
 
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper.
---->
+            <section>
+                <h5>px border on these boxes but they are in same line</h5>
+                <div class="outline">
+                    <span class="box box-outline"></span>
+                    <span class="box box-outline"></span>
+                    <span class="box box-outline"></span>
+                </div>
+            </section>
+    </main>
+    </body>
+</html>
