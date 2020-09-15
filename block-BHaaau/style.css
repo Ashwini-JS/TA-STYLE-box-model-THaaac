@@ -79,12 +79,12 @@ hr{
     width: 200px;
     height: 200px;
     border: 20px solid lightblue;
-	padding: 25px 50px 75px;
-	margin: 30px;
-	background-color: lightseagreen;
-	outline: black solid;
-	box-shadow: 0px 0px 0px 15px salmon;
-	display: inline-block;
+    padding: 25px 50px 75px;
+    margin: 30px;
+    background-color: lightseagreen;
+    outline: 10px black solid;
+    box-shadow: 0px 0px 0px 15px salmon;
+    display: inline-block;
 }
 
 .circle{
@@ -112,9 +112,9 @@ hr{
 	background-color: salmon;
 }
 
-.outline{
+.border{
 	width: 600px;
-	outline: 1px black solid;
+	border: 1px black solid;
 	display: inline-block;
 	font-size: 0px;
 }
